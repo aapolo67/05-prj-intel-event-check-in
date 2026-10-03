@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -258,6 +259,12 @@ button .fas {
   color: #003c71;
 }
 
+.goal-reached {
+  background-color: #dff7e8;
+  color: #176b3a;
+  font-weight: 700;
+}
+
 /* Counter */
 #attendeeCount {
   color: #0071c5;
@@ -272,6 +279,21 @@ button .fas {
   padding: 40px 20px;
   color: #94a3b8;
   font-size: 14px;
+}
+
+.reset-button {
+  margin: 0 auto 20px;
+  min-width: 190px;
+  height: 48px;
+  padding: 0 20px;
+  background-color: #64748b;
+  font-size: 15px;
+  box-shadow: 0 4px 12px rgba(100, 116, 139, 0.2);
+}
+
+.reset-button:hover {
+  background-color: #475569;
+  box-shadow: 0 6px 15px rgba(71, 85, 105, 0.3);
 }
 
 .footer-link {
@@ -346,6 +368,47 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+/* Attendee list */
+.attendee-list {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.attendee-list p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.attendee-list ul {
+  list-style: none;
+}
+
+.attendee-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 12px 14px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #2c3e50;
+}
+
+.attendee-list li:last-child {
+  border-bottom: none;
+}
+
+.attendee-list li span {
+  color: #64748b;
+  text-align: right;
 }
 
 /* Mobile responsive */
