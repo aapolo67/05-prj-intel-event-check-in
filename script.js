@@ -88,7 +88,7 @@ form.addEventListener("submit", function (event) {
   addAttendeeToList(name, teamName);
 
   // Welcome message
-  const message = `Welcome, ${name} from ${teamName}!`;
+  const message = `😤 Welcome, ${name} from ${teamName}!`;
   greeting.textContent = message;
   greeting.style.display = "block";
 
@@ -113,7 +113,7 @@ form.addEventListener("submit", function (event) {
       winningTeamName = "Team Renewables";
     }
 
-    greeting.textContent = `Goal reached! ${winningTeamName} is the winning team!`;
+    greeting.textContent = `🎉🎉🎉 Goal reached! ${winningTeamName} is the winning team! 🏆🏆🏆`;
     greeting.classList.add("goal-reached");
   }
 
